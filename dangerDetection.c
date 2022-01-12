@@ -4,6 +4,10 @@ double vehicule_speed = 50 ; // vehicule speed in km/h
 double actual_location [3] = {45.8715, -52.5428, 66.6441 } ; //current location of the vehicule
 double dist_to_brake = 25 ;// distance when the vehicle must start to brake
 
+
+
+
+
 message_alert message_builder(double radar , double braking_power)
 {
     time_t t = time(NULL);
